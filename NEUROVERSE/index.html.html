@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NEUROVERSE AI | Explore Your Mind</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Background Effects -->
+    <div class="background-glow glow-one"></div>
+    <div class="background-glow glow-two"></div>
+
+    <!-- Navigation -->
+    <header class="navbar">
+
+        <a href="#" class="logo">
+            <span class="logo-icon">✳</span>
+            NEUROVERSE<span class="ai-text">.AI</span>
+        </a>
+
+        <nav class="nav-links">
+            <a href="#universe">Universe</a>
+            <a href="#features">Features</a>
+            <a href="#about">About</a>
+        </nav>
+
+        <button class="nav-button" id="exploreBtn">
+            Explore Universe <span>↗</span>
+        </button>
+
+    </header>
+
+
+    <!-- Hero Section -->
+    <main>
+
+        <section class="hero" id="universe">
+
+            <div class="hero-content">
+
+                <div class="status-badge">
+                    <span class="status-dot"></span>
+                    THE FUTURE OF THINKING
+                </div>
+
+                <h1>
+                    Your Mind.<br>
+                    Your <span class="gradient-text">Universe.</span>
+                </h1>
+
+                <p class="hero-description">
+                    Transform your thoughts into possibilities.
+                    Discover connections, explore ideas, and build
+                    something extraordinary with AI.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <button class="primary-button" id="startBtn">
+                        Enter Your Universe
+                        <span>→</span>
+                    </button>
+
+                    <a href="#features" class="secondary-button">
+                        Discover More
+                    </a>
+
+                </div>
+
+                <div class="hero-stats">
+
+                    <div class="stat">
+                        <h3>∞</h3>
+                        <p>Ideas to Explore</p>
+                    </div>
+
+                    <div class="stat-divider"></div>
+
+                    <div class="stat">
+                        <h3>AI</h3>
+                        <p>Powered Thinking</p>
+                    </div>
+
+                    <div class="stat-divider"></div>
+
+                    <div class="stat">
+                        <h3>3D</h3>
+                        <p>Immersive Space</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Universe Visual -->
+            <div class="universe-visual" id="universeVisual">
+                <div id="threeContainer"></div>
+
+                <div class="orbit orbit-one"></div>
+                <div class="orbit orbit-two"></div>
+                <div class="orbit orbit-three"></div>
+
+                <div class="planet planet-one"></div>
+                <div class="planet planet-two"></div>
+                <div class="planet planet-three"></div>
+
+                <div class="core-glow"></div>
+
+                <div class="universe-core">
+                    <div class="core-inner">
+                        <span>✳</span>
+                    </div>
+                </div>
+
+                <div class="floating-card card-one">
+                    <span class="card-icon purple">✧</span>
+                    <div>
+                        <strong>Creative Ideas</strong>
+                        <small>Explore new possibilities</small>
+                    </div>
+                </div>
+
+                <div class="floating-card card-two">
+                    <span class="card-icon blue">⌘</span>
+                    <div>
+                        <strong>Neural Connections</strong>
+                        <small>Everything is connected</small>
+                    </div>
+                </div>
+
+                <div class="floating-card card-three">
+                    <span class="card-icon green">↗</span>
+                    <div>
+                        <strong>New Discoveries</strong>
+                        <small>Your next big idea</small>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Features Section -->
+        <section class="features" id="features">
+
+            <div class="section-heading">
+
+                <span class="eyebrow">BUILT FOR CURIOUS MINDS</span>
+
+                <h2>
+                    Think beyond the <span class="gradient-text">ordinary.</span>
+                </h2>
+
+                <p>
+                    A new way to explore ideas, connect thoughts,
+                    and turn imagination into action.
+                </p>
+
+            </div>
+
+
+            <div class="feature-grid">
+
+                <article class="feature-card">
+                    <div class="feature-icon">✳</div>
+                    <h3>AI Intelligence</h3>
+                    <p>
+                        Turn your ideas into structured insights
+                        and actionable plans.
+                    </p>
+                    <span class="feature-number">01</span>
+                </article>
+
+                <article class="feature-card">
+                    <div class="feature-icon">◎</div>
+                    <h3>3D Universe</h3>
+                    <p>
+                        Explore an interactive visual space
+                        inspired by your ideas.
+                    </p>
+                    <span class="feature-number">02</span>
+                </article>
+
+                <article class="feature-card">
+                    <div class="feature-icon">⌘</div>
+                    <h3>Neural Connections</h3>
+                    <p>
+                        Discover relationships between
+                        thoughts, goals, and possibilities.
+                    </p>
+                    <span class="feature-number">03</span>
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- Idea Explorer -->
+        <section class="idea-section" id="about">
+
+            <div class="idea-box">
+
+                <span class="eyebrow">YOUR UNIVERSE STARTS HERE</span>
+
+                <h2>What are you <span class="gradient-text">thinking?</span></h2>
+
+                <p>
+                    Every great invention begins with an idea.
+                    Start with yours.
+                </p>
+
+                <textarea
+                    id="ideaInput"
+                    placeholder="I want to build something extraordinary..."
+                    rows="4"
+                    maxlength="2000"
+                ></textarea>
+
+                <button class="primary-button analyze-button" id="analyzeBtn">
+                    Explore My Idea <span>✧</span>
+                </button>
+
+                <p class="idea-message" id="ideaMessage" aria-live="polite"></p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- AI CHATBOT -->
+    <section class="chatbot-section" id="ai-chat">
+        <div class="chatbot-box">
+            <div class="chatbot-header">
+                <div class="ai-status"></div>
+                <div>
+                    <h2>NEUROVERSE AI</h2>
+                    <p>Your futuristic AI assistant</p>
+                </div>
+            </div>
+            <div class="chat-messages" id="chatMessages" aria-live="polite">
+                <div class="chat-message bot-message">
+                    Hey! 👋 I'm Neuro AI. What would you like to explore today?
+                </div>
+            </div>
+            <form class="chat-input-area" id="chatForm">
+                <input type="text" id="chatInput" placeholder="Ask me anything..." autocomplete="off" required>
+                <button type="submit" id="chatSend" aria-label="Send message">➤</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <a href="#" class="logo footer-logo">
+            <span class="logo-icon">✳</span>
+            NEUROVERSE<span class="ai-text">.AI</span>
+        </a>
+
+        <p>Built for the curious. Designed for the future.</p>
+
+        <span class="footer-note">An experimental AI concept</span>
+    </footer>
+
+    <!-- Three.js must load before the project JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
